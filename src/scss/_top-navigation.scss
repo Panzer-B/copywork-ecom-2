@@ -1,0 +1,41 @@
+.top-navigation{
+  background-color: $blue-darker;
+  color:white;
+  font-family: 'roboto', sans-serif;
+  font-size:1rem;
+
+  .container{
+    display:flex;
+    height:42px;
+    margin:auto;
+    max-width:1200px;
+    justify-content: flex-start;
+    align-items:center;
+
+    a{
+      color:white;
+      text-decoration: none;
+      &:not(:last-child){
+        &:after{
+          content: ' |';
+          margin: 0 20px;
+          color:$blue + 20%;
+        }
+      }
+
+      &.btn-down{
+        background-color: #3576be;
+        padding:7px 10px;
+        border-radius: 3px;
+      }
+    }
+  }
+}
+
+.top-navigation__left, .top-navigation__right{
+  flex-grow:1;
+}
+
+.top-navigation__right{
+  text-align: right;
+}
