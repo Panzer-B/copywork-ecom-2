@@ -1,11 +1,9 @@
 .shopping-bar{
   background-color: $blue;
-  .container{
-    height:106px;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  height:106px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .shopping-bar__logo{
