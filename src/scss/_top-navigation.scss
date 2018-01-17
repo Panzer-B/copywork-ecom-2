@@ -7,9 +7,7 @@
   .container{
     display:flex;
     height:42px;
-    margin:auto;
-    max-width:1200px;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items:center;
 
     a{
@@ -30,12 +28,4 @@
       }
     }
   }
-}
-
-.top-navigation__left, .top-navigation__right{
-  flex-grow:1;
-}
-
-.top-navigation__right{
-  text-align: right;
 }
