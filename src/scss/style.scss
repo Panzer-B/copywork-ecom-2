@@ -8,7 +8,10 @@ html, body{
 
 @import 'variables.scss';
 @import 'grid.scss';
-@import 'header';
-@import 'top-navigation';
-@import 'shopping-bar';
-@import 'main-navigation';
+@import 'header/header';
+@import 'header/top-navigation';
+@import 'header/shopping-bar';
+@import 'header/main-navigation';
+
+@import 'footer/footer';
+@import 'footer/signup-bar';

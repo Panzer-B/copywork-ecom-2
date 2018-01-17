@@ -13,18 +13,18 @@
     a{
       color:white;
       text-decoration: none;
-      &:not(:last-child){
-        &:after{
-          content: ' |';
-          margin: 0 20px;
-          color:$blue + 20%;
-        }
+
+      &:not(:last-child):after{
+        content: ' |';
+        margin: 0 20px;
+        color:$blue + 20%;
       }
 
       &.btn-down{
         background-color: #3576be;
         padding:7px 10px;
         border-radius: 3px;
+        text-transform: uppercase;
       }
     }
   }

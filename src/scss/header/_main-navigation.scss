@@ -1,6 +1,9 @@
 .main-navigation {
   height: 54px;
   display: flex;
+  @media screen and (max-width:980px){
+    display:none;
+  }
 }
 
 .main-navigation__button {
