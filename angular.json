@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "fiscaliste": "apps/fiscaliste",
+    "fiscaliste-e2e": "apps/fiscaliste-e2e",
+    "true-cost": "apps/true-cost",
+    "true-cost-e2e": "apps/true-cost-e2e",
+    "true-cost-feature": "libs/true-cost/feature"
+  }
+}
